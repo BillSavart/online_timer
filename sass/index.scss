@@ -1,0 +1,52 @@
+body {
+    max-width: 70%;
+    margin: 0 auto;
+}
+h1 {
+    color: rgb(10, 228, 163);
+    text-align: center;
+}
+nav {
+    background: rgb(10, 228, 163);
+    height: 50px;
+
+    ul {
+        display: flex;
+    }
+    li {
+        list-style: none;
+        padding: 10px;
+        font-size: large;
+        font-family: sans-serif;
+        cursor: pointer;
+        &:hover {
+            background-color: lighten(rgb(10, 228, 163), 10);
+        }
+    }
+}
+
+.box {
+    height: 200px;
+    width: 540px;
+    background: black;
+    margin: 0 auto;
+    border-radius: 8px;
+    h2{
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 80px;
+    }
+    button {
+        margin: 10px 95px;
+        background-color: rgb(10, 228, 163);
+        height: 35px;
+        width: 70px;
+        padding: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+        &:hover {
+            background-color: lighten(rgb(10, 228, 163), 10);
+        }
+    }
+}
