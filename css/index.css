@@ -17,13 +17,16 @@ nav ul {
 }
 nav li {
   list-style: none;
-  padding: 10px;
+  padding: 12px;
   font-size: large;
   font-family: sans-serif;
   cursor: pointer;
 }
 nav li:hover {
   background-color: #2bf6b9;
+}
+nav .atHere {
+  background-color: #a3ffe4;
 }
 
 .box {
@@ -33,11 +36,12 @@ nav li:hover {
   margin: 0 auto;
   border-radius: 8px;
 }
-.box h2 {
+.box #clock {
   color: white;
   text-align: center;
   padding-top: 50px;
   font-size: 80px;
+  font-family: sans-serif;
 }
 .box button {
   margin: 10px 95px;

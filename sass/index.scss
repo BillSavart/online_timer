@@ -15,13 +15,16 @@ nav {
     }
     li {
         list-style: none;
-        padding: 10px;
+        padding: 12px;
         font-size: large;
         font-family: sans-serif;
         cursor: pointer;
         &:hover {
             background-color: lighten(rgb(10, 228, 163), 10);
         }
+    }
+    .atHere {
+        background-color: rgb(163, 255, 228);
     }
 }
 
@@ -31,11 +34,12 @@ nav {
     background: black;
     margin: 0 auto;
     border-radius: 8px;
-    h2{
+    #clock{
         color: white;
         text-align: center;
         padding-top: 50px;
         font-size: 80px;
+        font-family: sans-serif;
     }
     button {
         margin: 10px 95px;

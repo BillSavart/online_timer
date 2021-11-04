@@ -10,18 +10,14 @@
 <body>
     <nav>
         <ul>
-            <li>碼錶</li>
-            <li>倒數計時</li>
-            <li>鬧鐘</li>
+            <li id="alarm" class="atHere" onclick="handleClick()">鬧鐘</li>
+            <li id="timer">碼錶</li>
+            <li id="count">倒數計時</li>
         </ul>
     </nav>
     <h1>Online Timer</h1>
     <div class="box">
-        <div id="timer">
-            <h2>00:00:00.00</h2>
-        </div>
-        <button>Start</button>
-        <button>Reset</button>
+        <div id="clock" onload="startClock()"></div>
     </div>
     
     <script src="app/main.js"></script>
