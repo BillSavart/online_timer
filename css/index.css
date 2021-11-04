@@ -1,5 +1,5 @@
 body {
-  max-width: 70%;
+  max-width: 768px;
   margin: 0 auto;
 }
 
@@ -17,7 +17,7 @@ nav ul {
 }
 nav li {
   list-style: none;
-  padding: 12px;
+  padding: 13px;
   font-size: large;
   font-family: sans-serif;
   cursor: pointer;

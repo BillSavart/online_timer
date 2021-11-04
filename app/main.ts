@@ -1,9 +1,9 @@
 function startClock() {
-    const date = new Date();
-    let hours = date.getHours();
-    let minutes = date.getMinutes();
-    let seconds = date.getSeconds();
-    let time = "";
+    const date: Date = new Date();
+    let hours: number = date.getHours();
+    let minutes: number = date.getMinutes();
+    let seconds: number = date.getSeconds();
+    let time: string = "";
 
     time = (hours < 10)? time + "0" + hours.toString() : time + hours.toString();
     time = time + ":";
