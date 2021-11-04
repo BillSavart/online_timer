@@ -14,5 +14,3 @@ function startClock() {
     setTimeout(startClock, 1000);
 }
 startClock();
-function handleClick() {
-}

@@ -25,6 +25,10 @@ nav li {
 nav li:hover {
   background-color: #2bf6b9;
 }
+nav li a {
+  text-decoration: none;
+  color: black;
+}
 nav .atHere {
   background-color: #a3ffe4;
 }
@@ -36,22 +40,23 @@ nav .atHere {
   margin: 0 auto;
   border-radius: 8px;
 }
-.box #clock {
+.box #clock, .box #timer, .box #count {
   color: white;
   text-align: center;
   padding-top: 50px;
   font-size: 80px;
   font-family: sans-serif;
 }
-.box button {
-  margin: 10px 95px;
+
+button {
+  margin: 10px 130px;
   background-color: #0ae4a3;
   height: 35px;
-  width: 70px;
+  width: 120px;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
 }
-.box button:hover {
+button:hover {
   background-color: #2bf6b9;
 }

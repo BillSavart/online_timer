@@ -22,6 +22,10 @@ nav {
         &:hover {
             background-color: lighten(rgb(10, 228, 163), 10);
         }
+        a{
+            text-decoration: none;
+            color: black;
+        }
     }
     .atHere {
         background-color: rgb(163, 255, 228);
@@ -34,23 +38,23 @@ nav {
     background: black;
     margin: 0 auto;
     border-radius: 8px;
-    #clock{
+    #clock, #timer, #count {
         color: white;
         text-align: center;
         padding-top: 50px;
         font-size: 80px;
         font-family: sans-serif;
     }
-    button {
-        margin: 10px 95px;
-        background-color: rgb(10, 228, 163);
-        height: 35px;
-        width: 70px;
-        padding: 8px;
-        border-radius: 8px;
-        cursor: pointer;
-        &:hover {
-            background-color: lighten(rgb(10, 228, 163), 10);
-        }
+}
+button {
+    margin: 10px 130px;
+    background-color: rgb(10, 228, 163);
+    height: 35px;
+    width: 120px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    &:hover {
+        background-color: lighten(rgb(10, 228, 163), 10);
     }
 }

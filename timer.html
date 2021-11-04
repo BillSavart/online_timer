@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Timer</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li class="atHere"><a href="index.html">線上時鐘</a></li>
-            <li><a href="timer.html">碼錶</a></li>
+            <li><a href="index.html">線上時鐘</a></li>
+            <li class="atHere"><a href="timer.html">碼錶</a></li>
             <li><a href="count.html">倒數計時</a></li>
         </ul>
     </nav>
     <h1>Online Timer</h1>
     <div class="box">
-        <div id="clock" onload="startClock()"></div>
+        <div id="timer" onload="setTimer()"></div>
     </div>
-    <script src="app/main.js"></script>
+
+    <button id="start" class="start" onclick="startTimer()">Start</button>
+    <button id="reset" onclick="setTimer()">Reset</button>
+
+    <script src="app/timer.js"></script>
 </body>
 </html>
