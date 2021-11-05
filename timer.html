@@ -17,11 +17,16 @@
     </nav>
     <h1>Online Timer</h1>
     <div class="box">
-        <div id="timer" onload="setTimer()"></div>
+        <div id="timer">
+            <h2 id="hours"></h2> <h3>:</h3>
+            <h2 id="minutes"></h2> <h3>:</h3>
+            <h2 id="seconds"></h2> <h3>.</h3>
+            <h2 id="milli"></h2>
+        </div>
     </div>
 
-    <button id="start" class="start" onclick="startTimer()">Start</button>
-    <button id="reset" onclick="setTimer()">Reset</button>
+    <button id="toggleBtn" onclick="toggleTimer()">Start</button>
+    <button onclick="setTimer()">Reset</button>
 
     <script src="app/timer.js"></script>
 </body>

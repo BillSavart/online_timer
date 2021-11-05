@@ -38,12 +38,27 @@ nav {
     background: black;
     margin: 0 auto;
     border-radius: 8px;
-    #clock, #timer, #count {
+    #clock, #count {
         color: white;
         text-align: center;
         padding-top: 50px;
         font-size: 80px;
         font-family: sans-serif;
+    }
+    #timer {
+        color: white;
+        font-size: 48px;
+        font-family: sans-serif;
+        h2 {
+            display: inline-block;
+            margin-top: 60px;
+        }
+        h3 {
+            display: inline;
+        }
+        #hours {
+            margin-left: 45px;
+        }
     }
 }
 button {

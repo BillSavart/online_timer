@@ -40,12 +40,27 @@ nav .atHere {
   margin: 0 auto;
   border-radius: 8px;
 }
-.box #clock, .box #timer, .box #count {
+.box #clock, .box #count {
   color: white;
   text-align: center;
   padding-top: 50px;
   font-size: 80px;
   font-family: sans-serif;
+}
+.box #timer {
+  color: white;
+  font-size: 48px;
+  font-family: sans-serif;
+}
+.box #timer h2 {
+  display: inline-block;
+  margin-top: 60px;
+}
+.box #timer h3 {
+  display: inline;
+}
+.box #timer #hours {
+  margin-left: 45px;
 }
 
 button {
