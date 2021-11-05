@@ -32,13 +32,26 @@ nav {
     }
 }
 
+button {
+    margin: 10px 130px;
+    background-color: rgb(10, 228, 163);
+    height: 35px;
+    width: 120px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    &:hover {
+        background-color: lighten(rgb(10, 228, 163), 10);
+    }
+}
+
 .box {
     height: 200px;
     width: 540px;
     background: black;
     margin: 0 auto;
     border-radius: 8px;
-    #clock, #count {
+    #clock {
         color: white;
         text-align: center;
         padding-top: 50px;
@@ -60,9 +73,39 @@ nav {
             margin-left: 45px;
         }
     }
+    #counter {
+        h2 {
+            display: inline;
+            font-size: 60px;
+            color: white;
+        }
+        input {
+            border: none;
+            background-color: black;
+            color: white;
+            font-size: 60px;
+            font-family: sans-serif;
+            width: 80px;
+            height: 140px;
+            padding: 20px;
+            margin-top: 10px;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type=number]{
+            -moz-appearance: textfield;
+        }
+        #hrscount {
+            margin-left: 80px;
+        }
+    }
 }
-button {
-    margin: 10px 130px;
+
+.countBtn {
+    margin: 30px 70px;
     background-color: rgb(10, 228, 163);
     height: 35px;
     width: 120px;

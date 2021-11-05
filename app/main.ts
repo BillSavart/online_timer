@@ -11,7 +11,7 @@ function startClock():void {
     time = time + ":";
     time = (seconds < 10)? time + "0" + seconds.toString() : time + seconds.toString();
 
-    document.getElementById("clock")!.innerText = time;
+    (<HTMLInputElement>document.getElementById("clock")).innerText = time;
 
     setTimeout(startClock, 1000);
 }

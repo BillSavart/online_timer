@@ -1,8 +1,8 @@
-let hours = document.getElementById("hours")!;
-let minutes = document.getElementById("minutes")!;
-let seconds = document.getElementById("seconds")!;
-let milli = document.getElementById("milli")!;
-let btn = document.getElementById("toggleBtn")!;
+let hours = <HTMLInputElement>document.getElementById("hours");
+let minutes = <HTMLInputElement>document.getElementById("minutes");
+let seconds = <HTMLInputElement>document.getElementById("seconds");
+let milli = <HTMLInputElement>document.getElementById("milli");
+let btn = <HTMLInputElement>document.getElementById("toggleBtn");
 
 let ms = 0;
 let secs = 0;

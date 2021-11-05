@@ -17,7 +17,13 @@
     </nav>
     <h1>Online Timer</h1>
     <div class="box">
-        <div id="count" onload="setCounter()"></div>
+        <div id="counter">
+            <input id="hrscount" type="number" value="00" max="99" min="0"></input>  <h2>:</h2>
+            <input id="minscount" type="number" value="00" max="59" min="0"></input> <h2>:</h2>
+            <input id="secscount" type="number" value="00" max="59" min="0"></input>
+        </div>
+        <button id="toggleBtn" class="countBtn" onclick="toggleCounter();">Start</button>
+        <button onclick="setCounter()" class="countBtn">Reset</button>
     </div>
     
     <script src="app/count.js"></script>

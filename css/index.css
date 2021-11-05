@@ -33,6 +33,19 @@ nav .atHere {
   background-color: #a3ffe4;
 }
 
+button {
+  margin: 10px 130px;
+  background-color: #0ae4a3;
+  height: 35px;
+  width: 120px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #2bf6b9;
+}
+
 .box {
   height: 200px;
   width: 540px;
@@ -40,7 +53,7 @@ nav .atHere {
   margin: 0 auto;
   border-radius: 8px;
 }
-.box #clock, .box #count {
+.box #clock {
   color: white;
   text-align: center;
   padding-top: 50px;
@@ -62,9 +75,36 @@ nav .atHere {
 .box #timer #hours {
   margin-left: 45px;
 }
+.box #counter h2 {
+  display: inline;
+  font-size: 60px;
+  color: white;
+}
+.box #counter input {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 60px;
+  font-family: sans-serif;
+  width: 80px;
+  height: 140px;
+  padding: 20px;
+  margin-top: 10px;
+}
+.box #counter input::-webkit-outer-spin-button,
+.box #counter input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.box #counter input[type=number] {
+  -moz-appearance: textfield;
+}
+.box #counter #hrscount {
+  margin-left: 80px;
+}
 
-button {
-  margin: 10px 130px;
+.countBtn {
+  margin: 30px 70px;
   background-color: #0ae4a3;
   height: 35px;
   width: 120px;
@@ -72,6 +112,6 @@ button {
   border-radius: 8px;
   cursor: pointer;
 }
-button:hover {
+.countBtn:hover {
   background-color: #2bf6b9;
 }
